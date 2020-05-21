@@ -43,3 +43,35 @@
   background-color: pink;
 
 }
+
+
+/* riga5 due colonne con sottocolonne */
+
+
+.riga5 .col-6 {
+  height:208px;
+  background-color: pink;
+
+}
+
+.riga5sx {
+  margin:4px;
+}
+
+.riga5sx .col-2, .riga5sx .col-8 {
+  height:200px;
+  background-color: salmon;
+
+
+
+}
+
+.riga5dx {
+  margin: 4px;
+}
+
+.riga5dx .col-6 {
+  height:200px;
+  background-color: salmon;
+
+}
