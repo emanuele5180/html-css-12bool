@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+[class*="col-"] {
+  border: solid 1px black;
+}
+
+/* riga 1 12 colonne*/
+
+.riga1 .col-1 {
+  height:110px;
+  background-color: pink;
+}
+
+/* riga2 1colonna */
+
+
+.riga2 .col-12 {
+  height:150px;
+  background-color: pink;
+}
+
+/* riga3 3 colonne */
+
+.riga3 .col-8 {
+  height:150px;
+  background-color: pink;
+}
+
+.riga3 .col-2 {
+  height:150px;
+  background-color: pink;
+}
+
+/* riga4 5 colonne */
+
+.riga4 .col-1,.riga4 .col-2,.riga4 .col-6 {
+  height:150px;
+  background-color: pink;
+
+}
